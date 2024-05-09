@@ -1,0 +1,28 @@
+.table th{
+     text-align: center;
+}
+.cart-img-box{
+    width: 80px;
+}
+.cart-img-box img{
+    width: 100%;
+}
+.delete-cart i{
+  cursor: pointer;
+  font-size: 1rem;
+}
+.cart-button a:hover{
+    color: #fff;
+}
+.cart-subtotal span{
+      font-size: 1.5rem;
+      color: #df2020;
+}
+
+
+@media only screen and (max-width : 768px) {
+
+    th,td{
+        font-size: .8rem;
+    }
+}
